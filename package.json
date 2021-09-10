@@ -2,6 +2,7 @@
   "name": "doctor-appointment-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://atoui-zahreddine.github.io/doctor-appointment/",
   "dependencies": {
     "@craco/craco": "^6.2.0",
     "@testing-library/jest-dom": "^5.14.1",
@@ -17,7 +18,9 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +52,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.25.1",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "gh-pages": "^3.2.3",
     "postcss": "^7.0.36",
     "prettier": "^2.4.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.9"
