@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+# Clone of Doctor Appointment web page design on figma
+
+
+![screencapture-doctor-appoitment-1-netlify-app-2021-09-14-15_57_06](https://user-images.githubusercontent.com/47947271/133282595-c06d4561-5e76-49ee-b6a1-e7c0a5e33525.jpg)
+
+## Live Demo 
+
+https://doctor-appoitment-1.netlify.app/
+
+## Design on Figma 
+https://www.figma.com/community/file/946069156532464479
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
